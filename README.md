@@ -11,7 +11,7 @@
 ## Requisitos:
 #### Para integração do GLPI com o Office 365 no Azure, será necessario a instalação do plugin singlesignon no GLPI, configurar no Azure um registro de aplicativo e posteriomente configurar no GLPI com as informações de aplicativo que foi configurado anteriomente Azure.
 
-   * [Plugin GitHub](https://github.com/mateusassis02/singlesignon.git) 
+   * [Plugin GitHub](https://github.com/mateusassis02/glpi-singlesignon.git) 
    * [É necessário que o GLPI possua certificado SSL ativado e válido (HTTPS).](https://nets-nuts.com.br/glpi-utilizando-a-porta-443/) 
    * [Portal Azure](https://portal.azure.com/)
   
@@ -20,7 +20,7 @@
 
 #### Baixar o plugin no reposítório acima atraves do git clone.
          
-         git clone https://github.com/mateusassis02/singlesignon.git
+         git clone https://github.com/mateusassis02/glpi-singlesignon.git
 
 #### descompactar o arquivo na pasta “plugins” no diretório do seu GLPI.
           unzip singlesignon.zip na pasta padrão de plugins do GLPI e após isso instale o plugin na aba plugins do GLPI.
